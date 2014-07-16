@@ -1,0 +1,37 @@
+{
+  "name": "angular-webpack",
+  "version": "0.1.0",
+  "description": "AngularJS support for webpack",
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "webpack": "1.x"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.0"
+  },
+  "scripts": {
+    "prepublish": "coffee -o dist -c src/*.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nebolsin/angular-webpack.git"
+  },
+  "keywords": [
+    "angular",
+    "webpack",
+    "angularjs"
+  ],
+  "author": {
+    "name": "Sergey Nebolsin",
+    "email": "sergey@nebols.in"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  },
+  "bugs": {
+    "url": "https://github.com/nebolsin/angular-webpack/issues"
+  },
+  "homepage": "https://github.com/nebolsin/angular-webpack"
+}
