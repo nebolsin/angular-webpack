@@ -2,7 +2,7 @@
   "name": "angular-webpack",
   "version": "0.1.0",
   "description": "AngularJS support for webpack",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "peerDependencies": {
     "webpack": "1.x"
   },
@@ -10,7 +10,7 @@
     "coffee-script": "^1.7.0"
   },
   "scripts": {
-    "prepublish": "coffee -o dist -c src/*.coffee",
+    "prepublish": "coffee -o lib -c src/*.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
